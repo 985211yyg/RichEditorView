@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		041D5EA820283CA400259E2F /* Data+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D5EA720283CA400259E2F /* Data+Ext.swift */; };
 		042DEA561EEA54A2008F2F46 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DEA551EEA54A2008F2F46 /* UIImage+Extensions.swift */; };
 		04370DE11EC35D8B00CC382B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04370DE01EC35D8B00CC382B /* AppDelegate.swift */; };
 		04370DE31EC35D8B00CC382B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04370DE21EC35D8B00CC382B /* ViewController.swift */; };
@@ -85,7 +84,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		041D5EA720283CA400259E2F /* Data+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Ext.swift"; sourceTree = "<group>"; };
 		042DEA551EEA54A2008F2F46 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		04370DDD1EC35D8B00CC382B /* RichEditorView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RichEditorView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04370DE01EC35D8B00CC382B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -310,7 +308,6 @@
 				04370E381EC3608D00CC382B /* UIView+Responder.swift */,
 				042DEA551EEA54A2008F2F46 /* UIImage+Extensions.swift */,
 				04E6CD571EEA480D000F35F8 /* Util.swift */,
-				041D5EA720283CA400259E2F /* Data+Ext.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -519,7 +516,6 @@
 				04370E741EC3608D00CC382B /* CJWWebView+HackishAccessoryHiding.m in Sources */,
 				04370E781EC3608D00CC382B /* String+Extensions.swift in Sources */,
 				04370E771EC3608D00CC382B /* RichEditorView.swift in Sources */,
-				041D5EA820283CA400259E2F /* Data+Ext.swift in Sources */,
 				04370E7A1EC3608D00CC382B /* UIView+Responder.swift in Sources */,
 				042DEA561EEA54A2008F2F46 /* UIImage+Extensions.swift in Sources */,
 				04370E791EC3608D00CC382B /* UIColor+Extensions.swift in Sources */,

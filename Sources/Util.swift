@@ -38,8 +38,13 @@ class Util{
     }
     
     class func pathForImage(image: UIImage)->String?{
+        let date = Date()
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        let dateString = dateFormatter.string(from: date)
+        //
         let data = image.uploadData()
-        let filename = data.md5 + ".jpg"
+        let filename = dateString + ".jpg"
         
         let manager = FileManager.default
         
